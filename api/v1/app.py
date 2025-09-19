@@ -8,7 +8,7 @@ class PrettyJSONResponse(JSONResponse):
     def render(self, content) -> bytes:
         return json.dumps(
             content,
-            indent=4,         
+            indent=4,
             ensure_ascii=False
         ).encode("utf-8")
 
@@ -39,16 +39,17 @@ async def root():
     return {
         "message": "🎓 Welcome to the Kenya Universities API!",
         "endpoints": {
-            "/api/universities": "Filter universities by type, category, county, or name",
-            "/api/universities/{id}": "Get a single university by ID",
-            "/api/universities/key/{key}": "Get a university by key"
+            "/api/v1/universities": "Filter universities by type, category, county, or name",
+            "/api/v1/universities/{id}": "Get a single university by ID",
+            "/api/v1/universities/key/{key}": "Get a university by key"
         },
         "version": "1.0.0"
     }
 
 
 # --- All Universities with Filters ---
-@app.get("/api/universities")
+# The URL now includes /v1/ for versioning
+@app.get("/api/v1/universities")
 async def get_universities(
     institution_type: str | None = Query(None, description="Filter by institution type (Public/Private)"),
     category: str | None = Query(None, description="Filter by category (University/University College)"),
@@ -75,7 +76,8 @@ async def get_universities(
 
 
 # --- Single University by ID ---
-@app.get("/api/universities/{uni_id}")
+# The URL now includes /v1/ for versioning
+@app.get("/api/v1/universities/{uni_id}")
 async def get_university_by_id(uni_id: int):
     uni = next((u for u in UNIVERSITIES if u["id"] == uni_id), None)
     if not uni:
@@ -84,7 +86,8 @@ async def get_university_by_id(uni_id: int):
 
 
 # --- Single University by Key ---
-@app.get("/api/universities/key/{key}")
+# The URL now includes /v1/ for versioning
+@app.get("/api/v1/universities/key/{key}")
 async def get_university_by_key(key: str):
     uni = next((u for u in UNIVERSITIES if normalize(u["key"]) == normalize(key)), None)
     if not uni:
