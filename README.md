@@ -29,7 +29,7 @@ This project is built using **FastAPI** and is deployed as a **Serverless Functi
 ## 🌍 API Endpoints
 
 **Base URL:**  
-https://kenya-universities-api.onrender.com/
+https://kenya-universities-kh4vb7mmn-deployte.vercel.app?_vercel_share=F5stIxxnG4xWAejsUwpPTBinvI7JZLNH
 
 ---
 
@@ -52,7 +52,7 @@ GET /api/universities?institution_type=Public&county=Nairobi
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/universities?institution_type=Public&county=Nairobi](https://kenya-universities-api.onrender.com/api/universities?institution_type=Public&county=Nairobi)
+[https://https://kenya-universities-kh4vb7mmn-deployte.vercel.app?_vercel_share=F5stIxxnG4xWAejsUwpPTBinvI7JZLNH/api/universities?institution_type=Public&county=Nairobi](https://kenya-universities-kh4vb7mmn-deployte.vercel.app?_vercel_share=F5stIxxnG4xWAejsUwpPTBinvI7JZLNH/api/universities?institution_type=Public&county=Nairobi)
 
 ---
 
@@ -121,3 +121,4 @@ uvicorn api.app:app --reload
 ```
 - Your API will now be running locally at http://127.0.0.1:8000
 - You can access the interactive API documentation (Swagger UI) at http://127.0.0.1:8000/docs
+
