@@ -1,5 +1,6 @@
 from fastapi import FastAPI, Query
 from fastapi.responses import JSONResponse
+from fastapi.middleware.cors import CORSMiddleware
 import json
 import os
 
@@ -21,13 +22,15 @@ app = FastAPI(
     default_response_class=PrettyJSONResponse
 )
 
+# --- Enable CORS ---
 app.add_middleware(
     CORSMiddleware,
-    allow_origins=["*"],  
+    allow_origins=["*"],   # ✅ Public API
     allow_credentials=True,
     allow_methods=["*"],
     allow_headers=["*"],
 )
+
 # --- Load dataset once ---
 DATA_FILE = os.path.join(os.path.dirname(__file__), "../../data/universities.json")
 with open(DATA_FILE, "r", encoding="utf-8") as f:
@@ -54,7 +57,6 @@ async def root():
 
 
 # --- All Universities with Filters ---
-# The URL now includes /v1/ for versioning
 @app.get("/api/v1/universities")
 async def get_universities(
     institution_type: str | None = Query(None, description="Filter by institution type (Public/Private)"),
@@ -82,7 +84,6 @@ async def get_universities(
 
 
 # --- Single University by ID ---
-# The URL now includes /v1/ for versioning
 @app.get("/api/v1/universities/{uni_id}")
 async def get_university_by_id(uni_id: int):
     uni = next((u for u in UNIVERSITIES if u["id"] == uni_id), None)
@@ -92,7 +93,6 @@ async def get_university_by_id(uni_id: int):
 
 
 # --- Single University by Key ---
-# The URL now includes /v1/ for versioning
 @app.get("/api/v1/universities/key/{key}")
 async def get_university_by_key(key: str):
     uni = next((u for u in UNIVERSITIES if normalize(u["key"]) == normalize(key)), None)
