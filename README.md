@@ -29,12 +29,12 @@ This project is built using **FastAPI** and is deployed as a **Serverless Functi
 ## 🌍 API Endpoints
 
 **Base URL:**  
-https://kenya-universities-api.onrender.com/
+https://kenya-universities-api.onrender.com
 
 ---
 
 ### 1. Filter Universities
-**Endpoint:** `/api/universities`  
+**Endpoint:** `/api/v1/universities`  
 **Method:** `GET`  
 **Description:** Use query parameters to filter the list of universities. All parameters are optional.
 
@@ -48,43 +48,43 @@ https://kenya-universities-api.onrender.com/
 **Example Usage:**
 
 - API Endpoint:
-GET /api/universities?institution_type=Public&county=Nairobi
+GET /api/v1/universities?institution_type=Public&county=Nairobi
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/universities?institution_type=Public&county=Nairobi](https://kenya-universities-api.onrender.com/api/universities?institution_type=Public&county=Nairobi)
+[https://kenya-universities-api.onrender.com/api/v1/universities?institution_type=Public&county=Nairobi](https://kenya-universities-api.onrender.com/api/v1/universities?institution_type=Public&county=Nairobi)
 
 ---
 
 ### 2. Get a Single University by ID
-**Endpoint:** `/api/universities/{id}`  
+**Endpoint:** `/api/v1/universities/{id}`  
 **Method:** `GET`  
 **Description:** Fetch a single university by its unique **ID**.
 
 **Example Usage:**
 
 - API Endpoint:
-GET /api/universities/1
+GET /api/v1/universities/1
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/universities/1](https://kenya-universities-api.onrender.com/api/universities/1)
+[https://kenya-universities-api.onrender.com/api/v1/universities/1](https://kenya-universities-api.onrender.com/api/v1/universities/1)
 
 ---
 
 ### 3. Get a University by Key
-**Endpoint:** `/api/universities/key/{key}`  
+**Endpoint:** `/api/v1/universities/key/{key}`  
 **Method:** `GET`  
 **Description:** Fetch a single university by its unique **Key**.
 
 **Example Usage:**
 
 - API Endpoint:
-GET /api/universities/key/UON
+GET /api/v1/universities/key/UON
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/universities/key/UON](https://kenya-universities-api.onrender.com/api/universities/key/UON)
+[https://kenya-universities-api.onrender.com/api/v1/universities/key/UON](https://kenya-universities-api.onrender.com/api/v1/universities/key/UON)
 
 ---
 
@@ -117,9 +117,10 @@ pip install -r requirements.txt
 Start the local development server using uvicorn.
 
 ```bash
-uvicorn api.app:app --reload
+uvicorn api.v1.app:app --reload
 ```
 - Your API will now be running locally at http://127.0.0.1:8000
 - You can access the interactive API documentation (Swagger UI) at http://127.0.0.1:8000/docs
+
 
 
