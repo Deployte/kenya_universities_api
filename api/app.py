@@ -1,57 +1,92 @@
-import os, json
 from fastapi import FastAPI, Query
+from fastapi.responses import JSONResponse
+import json
+import os
 
-DATA_FILE = os.path.join(os.path.dirname(__file__), "../universities.json")
-with open(DATA_FILE, "r", encoding="utf-8") as f:
-    universities = json.load(f)
+# --- Pretty JSON Response ---
+class PrettyJSONResponse(JSONResponse):
+    def render(self, content) -> bytes:
+        return json.dumps(
+            content,
+            indent=4,         # ✅ pretty print
+            ensure_ascii=False
+        ).encode("utf-8")
 
+
+# --- App Configuration ---
 app = FastAPI(
     title="Kenya Universities API",
-    description="API for accessing universities in Kenya",
-    version="1.0.0"
+    version="1.0.0",
+    description="API for accessing and filtering universities in Kenya",
+    default_response_class=PrettyJSONResponse
 )
 
+
+# --- Load dataset once ---
+DATA_FILE = os.path.join(os.path.dirname(__file__), "../universities.json")
+with open(DATA_FILE, "r", encoding="utf-8") as f:
+    UNIVERSITIES = json.load(f)
+
+
+# --- Utility: normalize for case-insensitive matching ---
+def normalize(s: str) -> str:
+    return s.strip().lower()
+
+
+# --- Root ---
 @app.get("/")
-def root():
-    return {"message": "🎓 Welcome to the Kenya Universities API!"}
+async def root():
+    return {
+        "message": "🎓 Welcome to the Kenya Universities API!",
+        "endpoints": {
+            "/api/universities": "Filter universities by type, category, county, or name",
+            "/api/universities/{id}": "Get a single university by ID",
+            "/api/universities/key/{key}": "Get a university by key"
+        },
+        "version": "1.0.0"
+    }
 
 
-
-@app.get("/universities", response_model=List[dict])
-def get_universities(
-    institution_type: Optional[str] = Query(None, description="Filter by institution type (e.g. Public, Private)"),
-    category: Optional[str] = Query(None, description="Filter by category (e.g. University, University College)"),
-    county: Optional[str] = Query(None, description="Filter by location/county"),
-    search: Optional[str] = Query(None, description="Search by university name")
+# --- All Universities with Filters ---
+@app.get("/api/universities")
+async def get_universities(
+    institution_type: str | None = Query(None, description="Filter by institution type (Public/Private)"),
+    category: str | None = Query(None, description="Filter by category (University/University College)"),
+    county: str | None = Query(None, description="Filter by location/county"),
+    search: str | None = Query(None, description="Search by university name")
 ):
-    results = universities
+    filtered = UNIVERSITIES
 
     if institution_type:
-        results = [u for u in results if normalize(u["institution_type"]) == normalize(institution_type)]
+        filtered = [u for u in filtered if normalize(u["institution_type"]) == normalize(institution_type)]
 
     if category:
-        results = [u for u in results if normalize(u["category"]) == normalize(category)]
+        filtered = [u for u in filtered if normalize(u["category"]) == normalize(category)]
 
     if county:
-        results = [u for u in results if county.lower() in u["location"].lower()]
+        filtered = [u for u in filtered if county.lower() in u["location"].lower()]
 
     if search:
-        results = [u for u in results if search.lower() in u["university"].lower()]
+        filtered = [u for u in filtered if search.lower() in u["university"].lower()]
 
-    return results
+    if not filtered:
+        return {"message": "No universities found"}
+    return filtered
 
 
-@app.get("/universities/{uni_id}", response_model=dict)
-def get_university_by_id(uni_id: int):
-    uni = next((u for u in universities if u["id"] == uni_id), None)
+# --- Single University by ID ---
+@app.get("/api/universities/{uni_id}")
+async def get_university_by_id(uni_id: int):
+    uni = next((u for u in UNIVERSITIES if u["id"] == uni_id), None)
     if not uni:
-        raise HTTPException(status_code=404, detail="University not found")
+        return {"message": f"University with ID '{uni_id}' not found"}
     return uni
 
 
-@app.get("/universities/key/{key}", response_model=dict)
-def get_university_by_key(key: str):
-    uni = next((u for u in universities if normalize(u["key"]) == normalize(key)), None)
+# --- Single University by Key ---
+@app.get("/api/universities/key/{key}")
+async def get_university_by_key(key: str):
+    uni = next((u for u in UNIVERSITIES if normalize(u["key"]) == normalize(key)), None)
     if not uni:
-        raise HTTPException(status_code=404, detail="University not found")
+        return {"message": f"University with key '{key}' not found"}
     return uni
