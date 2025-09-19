@@ -1,7 +1,8 @@
-# Kenya Universities API 🎓
-
+# Kenya Universities API 🎓  
+Powered by [Deployte](https://deployte.com)\
+\
 An API for querying and filtering a dataset of universities in Kenya.  
-This project is built using **FastAPI** and is deployed as a **Serverless Function** on **Vercel**.
+This project is built using **FastAPI** and is deployed as a **Serverless Function** on **Render**.
 
 ---
 
@@ -22,7 +23,7 @@ This project is built using **FastAPI** and is deployed as a **Serverless Functi
 ## 🛠️ Technologies Used
 - **FastAPI**: Modern, fast web framework for building APIs with Python 3.7+.
 - **Python**: Core programming language.
-- **Vercel**: Platform for instant, zero-configuration deployment of serverless functions.
+- **Render**: Platform for instant, zero-configuration deployment of serverless functions.
 
 ---
 
@@ -121,6 +122,7 @@ uvicorn api.v1.app:app --reload
 ```
 - Your API will now be running locally at http://127.0.0.1:8000
 - You can access the interactive API documentation (Swagger UI) at http://127.0.0.1:8000/docs
+
 
 
 
