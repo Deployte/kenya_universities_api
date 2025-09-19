@@ -23,7 +23,7 @@ app = FastAPI(
 
 
 # --- Load dataset once ---
-DATA_FILE = os.path.join(os.path.dirname(__file__), "../universities.json")
+DATA_FILE = os.path.join(os.path.dirname(__file__), ".../universities.json")
 with open(DATA_FILE, "r", encoding="utf-8") as f:
     UNIVERSITIES = json.load(f)
 
