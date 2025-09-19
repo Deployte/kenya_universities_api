@@ -1,25 +1,20 @@
-from fastapi import FastAPI, HTTPException, Query
-from typing import List, Optional
-import json
+import os, json
+from fastapi import FastAPI, Query
 
-# Load data once at startup
-with open("../universities.json", "r", encoding="utf-8") as f:
+DATA_FILE = os.path.join(os.path.dirname(__file__), "../universities.json")
+with open(DATA_FILE, "r", encoding="utf-8") as f:
     universities = json.load(f)
 
 app = FastAPI(
     title="Kenya Universities API",
-    description="API for accessing and filtering universities in Kenya",
+    description="API for accessing universities in Kenya",
     version="1.0.0"
 )
 
-# --- Utility: case-insensitive filtering ---
-def normalize(s: str) -> str:
-    return s.strip().lower()
-
-
 @app.get("/")
 def root():
-    return {"message": "Welcome to the Kenya Universities API 🚀"}
+    return {"message": "🎓 Welcome to the Kenya Universities API!"}
+
 
 
 @app.get("/universities", response_model=List[dict])
