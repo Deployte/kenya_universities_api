@@ -8,7 +8,7 @@ class PrettyJSONResponse(JSONResponse):
     def render(self, content) -> bytes:
         return json.dumps(
             content,
-            indent=4,         # ✅ pretty print
+            indent=4,         
             ensure_ascii=False
         ).encode("utf-8")
 
@@ -23,7 +23,7 @@ app = FastAPI(
 
 
 # --- Load dataset once ---
-DATA_FILE = os.path.join(os.path.dirname(__file__), ".../universities.json")
+DATA_FILE = os.path.join(os.path.dirname(__file__), "../../data/universities.json")
 with open(DATA_FILE, "r", encoding="utf-8") as f:
     UNIVERSITIES = json.load(f)
 
