@@ -1,0 +1,1781 @@
+[
+    {
+        "id": 1,
+        "university": "Adventist University of Africa",
+        "key": "AUA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.aua.ac.ke/",
+        "courses": []
+    },
+    {
+        "id": 2,
+        "university": "Africa International University",
+        "key": "AIU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.aiu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "university": "Africa Nazarene University",
+        "key": "ANU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KAJIADO COUNTY",
+        "website": "https://www.anu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "university": "Aga Khan University",
+        "key": "AKU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.aku.edu/",
+        "courses": []
+    },
+    {
+        "id": 5,
+        "university": "Alupe University",
+        "key": "AU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "BUSIA COUNTY",
+        "website": "https://au.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "university": "Amref International University",
+        "key": "AMIU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://amref.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "university": "Bomet University College",
+        "key": "BUC",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "BOMET COUNTY",
+        "website": "https://buc.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "university": "Catholic University Of Eastern Africa",
+        "key": "CUEA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.cuea.edu/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "university": "Chuka University",
+        "key": "CU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "THARAKA NITHI COUNTY",
+        "website": "https://www.chuka.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "university": "Co-Operative University Of Kenya",
+        "key": "COPUK",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.cuk.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "university": "Daystar University",
+        "key": "DAYSTAR",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "MACHAKOS COUNTY",
+        "website": "https://www.daystar.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "university": "Dedan Kimathi University Of Technology",
+        "key": "DKUT",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NYERI COUNTY",
+        "website": "https://www.dkut.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 13,
+        "university": "Egerton University",
+        "key": "EU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAKURU COUNTY",
+        "website": "https://www.egerton.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 14,
+        "university": "Garissa University",
+        "key": "GU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "GARISSA COUNTY",
+        "website": "https://gau.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 15,
+        "university": "Great Lakes University Of Kisumu",
+        "key": "GLUK",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KISUMU COUNTY",
+        "website": "https://www.gluk.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 16,
+        "university": "Gretsa University",
+        "key": "GRETSA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KIAMBU COUNTY",
+        "website": "https://gretsauniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 17,
+        "university": "Hekima University College",
+        "key": "HUC",
+        "category": "University College",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://hekima.ac.ke/",
+        "courses": []
+    },
+    {
+        "id": 18,
+        "university": "International Leadership University",
+        "key": "ILU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://kenya.ilu.edu/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 19,
+        "university": "Islamic University Of Kenya",
+        "key": "IUK",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KAJIADO COUNTY",
+        "website": "https://www.iuk.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 20,
+        "university": "Jaramogi Oginga Odinga University Of Science And Technology",
+        "key": "JOOUST",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "SIAYA COUNTY",
+        "website": "https://www.jooust.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 21,
+        "university": "Jomo Kenyatta University Of Agriculture And Technology",
+        "key": "JKUAT",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KIAMBU COUNTY",
+        "website": "https://www.jkuat.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 22,
+        "university": "Kabarak University",
+        "key": "KABU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAKURU COUNTY",
+        "website": "https://www.kabarak.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 23,
+        "university": "Kaimosi Friends University",
+        "key": "KAFU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "VIHIGA COUNTY",
+        "website": "https://kafu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 24,
+        "university": "Karatina University",
+        "key": "KARU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NYERI COUNTY",
+        "website": "https://www.karu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 25,
+        "university": "Kca University",
+        "key": "KCA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.kca.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 26,
+        "university": "Kenya Assemblies Of God East University",
+        "key": "KAGEU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.kemu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 27,
+        "university": "Kenya Highlands Evangelical University",
+        "key": "KHEU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KERICHO COUNTY",
+        "website": "https://www.kheu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 28,
+        "university": "Kenya Methodist University",
+        "key": "KEMU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "MERU COUNTY",
+        "website": "https://www.kemu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 29,
+        "university": "Kenyatta University",
+        "key": "KU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.ku.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 30,
+        "university": "Kenyatta University - Mama Ngina University College",
+        "key": "MNUC",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KIAMBU COUNTY",
+        "website": "https://mnu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 31,
+        "university": "Kibabii University",
+        "key": "KBBU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "BUNGOMA COUNTY",
+        "website": "https://www.kibu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 32,
+        "university": "Kirinyaga University",
+        "key": "KYU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KIRINYAGA COUNTY",
+        "website": "https://www.kyu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 33,
+        "university": "Kiriri Womens University Of Science And Technology",
+        "key": "KWUST",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.kwust.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 34,
+        "university": "Kisii University",
+        "key": "KSU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KISII COUNTY",
+        "website": "https://www.kisiiuniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 35,
+        "university": "Koitaleel Samoei University College",
+        "key": "KSUC",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NANDI COUNTY",
+        "website": "https://ksu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 36,
+        "university": "Laikipia University",
+        "key": "LU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "LAIKIPIA COUNTY",
+        "website": "https://www.laikipia.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 37,
+        "university": "Lukenya University",
+        "key": "LUKENYA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "MACHAKOS COUNTY",
+        "website": "https://www.lukenya.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 38,
+        "university": "Maasai Mara University",
+        "key": "MMARAU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAROK COUNTY",
+        "website": "https://www.mmarau.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 39,
+        "university": "Machakos University",
+        "key": "MCKU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MACHAKOS COUNTY",
+        "website": "https://www.mksu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 40,
+        "university": "Management University Of Africa",
+        "key": "MUA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.mua.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 41,
+        "university": "Marist International University College",
+        "key": "MARIST",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.miuc.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 42,
+        "university": "Maseno University",
+        "key": "MSU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KISUMU COUNTY",
+        "website": "https://www.maseno.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 43,
+        "university": "Masinde Muliro University Of Science & Technology",
+        "key": "MMUST",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KAKAMEGA COUNTY",
+        "website": "https://www.mmust.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 44,
+        "university": "Meru University Of Science And Technology",
+        "key": "MUST",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MERU COUNTY",
+        "website": "https://www.must.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 45,
+        "university": "Moi University",
+        "key": "MU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "UASIN GISHU COUNTY",
+        "website": "https://www.mu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 46,
+        "university": "Mount Kenya University",
+        "key": "MKU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KIAMBU COUNTY",
+        "website": "https://www.mku.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 47,
+        "university": "Multimedia University Of Kenya",
+        "key": "MMU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.mmu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 48,
+        "university": "Murang'A University Of Technology",
+        "key": "MUT",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MURANG'A COUNTY",
+        "website": "https://www.mut.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 49,
+        "university": "National Defence University-Kenya",
+        "key": "NDU-K",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Defence",
+        "location": "Nakuru County",
+        "website": "https://ndu.ac.ke/",
+        "courses": []
+    },
+    {
+        "id": 50,
+        "university": "National Intelligence Research University College",
+        "key": "NIRUC",
+        "category": "University College",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Defence",
+        "location": "Nakuru County",
+        "website": "https://ndu.ac.ke/national-intelligence-research-university-college",
+        "courses": []
+    },
+    {
+        "id": 51,
+        "university": "Nyandarua University College",
+        "key": "NUC",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NYANDARUA COUNTY",
+        "website": "null",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 52,
+        "university": "Open University Of Kenya",
+        "key": "OUK",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MACHAKOS COUNTY",
+        "website": "https://ouk.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 53,
+        "university": "Pan Africa Christian University",
+        "key": "PAC",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.pacuniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 54,
+        "university": "Pioneer International University",
+        "key": "PIU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "http://www.piu.ac.ke",
+        "courses": []
+    },
+    {
+        "id": 55,
+        "university": "Presbyterian University Of East Africa",
+        "key": "PUEA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KIAMBU COUNTY",
+        "website": "https://www.puea.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 56,
+        "university": "Pwani University",
+        "key": "PU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KILIFI COUNTY",
+        "website": "https://www.pu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 57,
+        "university": "Riara University",
+        "key": "RU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.riarauniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 58,
+        "university": "Rongo University",
+        "key": "RNU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MIGORI COUNTY",
+        "website": "https://www.rongovarsity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 59,
+        "university": "Scott Christian University",
+        "key": "SCU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "MACHAKOS COUNTY",
+        "website": "https://www.scott.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 60,
+        "university": "South Eastern Kenya University",
+        "key": "SEKU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KITUI COUNTY",
+        "website": "https://www.seku.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 61,
+        "university": "St Pauls University",
+        "key": "SPU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KIAMBU COUNTY",
+        "website": "https://www.spu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 62,
+        "university": "Strathmore University",
+        "key": "Strathmore",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.strathmore.edu/",
+        "courses": []
+    },
+    {
+        "id": 63,
+        "university": "Taita Taveta University",
+        "key": "TTU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "TAITA TAVETA COUNTY",
+        "website": "https://www.ttu.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 64,
+        "university": "Tangaza University",
+        "key": "TU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.tangaza.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 65,
+        "university": "Technical University Of Kenya",
+        "key": "TUK",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.tukenya.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 66,
+        "university": "Technical University Of Mombasa",
+        "key": "TUM",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "MOMBASA COUNTY",
+        "website": "http://www.tum.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 67,
+        "university": "Tharaka University",
+        "key": "THRKU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "THARAKA NITHI COUNTY",
+        "website": "https://www.tharakauniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 68,
+        "university": "The East African University",
+        "key": "TEAU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KAJIADO COUNTY",
+        "website": "https://teau.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 69,
+        "university": "Tom Mboya University",
+        "key": "TMU",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "HOMA BAY COUNTY",
+        "website": "https://www.tmuniv.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 70,
+        "university": "Turkana University College",
+        "key": "TRUC",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "TURKANA COUNTY",
+        "website": "https://tuc.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 71,
+        "university": "Umma University",
+        "key": "UU",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KAJIADO COUNTY",
+        "website": "https://www.umma.ac.ke/",
+        "courses": []
+    },
+    {
+        "id": 72,
+        "university": "United States International University Africa",
+        "key": "USIU-Africa",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "http://www.usiu.ac.ke",
+        "courses": []
+    },
+    {
+        "id": 73,
+        "university": "University Of Eastern Africa, Baraton",
+        "key": "BARA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NANDI COUNTY",
+        "website": "https://www.ueab.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 74,
+        "university": "University Of Eldoret",
+        "key": "UOE",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "UASIN GISHU COUNTY",
+        "website": "https://www.uoeld.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 75,
+        "university": "University Of Embu",
+        "key": "UOEM",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "EMBU COUNTY",
+        "website": "https://www.embuni.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 76,
+        "university": "University Of Kabianga",
+        "key": "UOK",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "KERICHO COUNTY",
+        "website": "https://www.kabianga.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 77,
+        "university": "University Of Nairobi",
+        "key": "UON",
+        "category": "University",
+        "institution_type": "Public",
+        "parent_ministry": "Ministry of Education",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.uonbi.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 78,
+        "university": "Uzima University",
+        "key": "UZIMA",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "KISUMU COUNTY",
+        "website": "https://uzimauniversity.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    },
+    {
+        "id": 79,
+        "university": "Zetech University",
+        "key": "ZETECH",
+        "category": "University",
+        "institution_type": "Private",
+        "parent_ministry": "Private Institution",
+        "location": "NAIROBI COUNTY",
+        "website": "https://www.zetech.ac.ke/",
+        "courses": [
+            {
+                "code": "1073101",
+                "course": "Bachelor Of Arts"
+            },
+            {
+                "code": "1073109",
+                "course": "Bachelor Of Science (Mathematics)"
+            },
+            {
+                "code": "1073112",
+                "course": "Bachelor Of Science (Biochemistry)"
+            }
+        ]
+    }
+]
