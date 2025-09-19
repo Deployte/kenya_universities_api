@@ -21,7 +21,13 @@ app = FastAPI(
     default_response_class=PrettyJSONResponse
 )
 
-
+app.add_middleware(
+    CORSMiddleware,
+    allow_origins=["*"],  
+    allow_credentials=True,
+    allow_methods=["*"],
+    allow_headers=["*"],
+)
 # --- Load dataset once ---
 DATA_FILE = os.path.join(os.path.dirname(__file__), "../../data/universities.json")
 with open(DATA_FILE, "r", encoding="utf-8") as f:
