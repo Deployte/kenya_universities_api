@@ -30,7 +30,7 @@ This project is built using **FastAPI** and is deployed as a **Serverless Functi
 ## 🌍 API Endpoints
 
 **Base URL:**  
-https://kenya-universities-api.onrender.com
+https://api.depoyte.com
 
 ---
 
@@ -42,50 +42,52 @@ https://kenya-universities-api.onrender.com
 | Parameter          | Example Value   | Description                                 |
 |--------------------|-----------------|---------------------------------------------|
 | `institution_type` | Public / Private| Filters universities by institution type.   |
-| `category`         | University      | Filters universities by category.           |
+| `category`         | University/University College      | Filters universities by category.           |
 | `county`           | Nairobi         | Filters universities by county.             |
-| `search`           | nairobi         | Case-insensitive search in university name. |
+| `university`           | nairobi         | Case-insensitive search in university name. |
+| `type` |universities| Filter all university names. |
 
 **Example Usage:**
 
 - API Endpoint:
-GET /api/v1/universities?institution_type=Public&county=Nairobi
+GET /api/v1?location=Nairobi
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/v1/universities?institution_type=Public&county=Nairobi](https://kenya-universities-api.onrender.com/api/v1/universities?institution_type=Public&county=Nairobi)
+[https://api.deployte.com/api/v1?location=Nairobi](https://api.deployte.com/api/v1?location=Nairobi)
 
 ---
 
-### 2. Get a Single University by ID
-**Endpoint:** `/api/v1/universities/{id}`  
+### 2. Get all University names
+**Endpoint:** `/api/v1?type=universities`  
 **Method:** `GET`  
-**Description:** Fetch a single university by its unique **ID**.
+**Description:** Fetch all university names
 
 **Example Usage:**
+Can be used for areas such as dropdowns
 
 - API Endpoint:
-GET /api/v1/universities/1
+GET /api/v1?type=universities
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/v1/universities/1](https://kenya-universities-api.onrender.com/api/v1/universities/1)
+[https://api.deployte.com/api/v1?type=universities](https://api.deployte.com/api/v1?type=universities)
 
 ---
 
-### 3. Get a University by Key
-**Endpoint:** `/api/v1/universities/key/{key}`  
+### 3. Fetch all UNiversity keys
+**Endpoint:** `/api/v1?type=keys`  
 **Method:** `GET`  
-**Description:** Fetch a single university by its unique **Key**.
+**Description:** Fetch all universities keys.
 
 **Example Usage:**
 
 - API Endpoint:
-GET /api/v1/universities/key/UON
+GET /api/v1?type=keys
 
 
 - In a browser:  
-[https://kenya-universities-api.onrender.com/api/v1/universities/key/UON](https://kenya-universities-api.onrender.com/api/v1/universities/key/UON)
+[https://api.deployte.com/api/v1?type=keys](https://api.deployte.com/api/v1?type=keys)
 
 ---
 
@@ -122,6 +124,7 @@ uvicorn api.v1.app:app --reload
 ```
 - Your API will now be running locally at http://127.0.0.1:8000
 - You can access the interactive API documentation (Swagger UI) at http://127.0.0.1:8000/docs
+
 
 
 
